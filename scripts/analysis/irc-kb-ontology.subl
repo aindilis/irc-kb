@@ -1,0 +1,16 @@
+(pred-2 "evidenceOf" #$CycLFormula #$NaturalLanguageString)
+(func-1 "softwareFn" #$CharacterString #$Software)
+(func-1 "sentenceFn" #$CharacterString #$NaturalLanguageString)
+
+;; need an unpred-2 etc
+
+(f "IRCKBMt")
+(a '(#$isa #$IRCKBMt #$Microtheory) #$BaseKB)
+
+;; (cyc-unassert '(#$isa #$evidenceOf #$BinaryFunction) #$UniversalVocabularyMt) 
+;; (cyc-unassert '(#$arity #$evidenceOf 2) #$UniversalVocabularyMt) 
+;; (cyc-unassert '(#$arg1Isa #$evidenceOf #$CycLFormula) #$BaseKB) 
+;; (cyc-unassert '(#$argIsa #$evidenceOf 1 #$CycLFormula) #$BaseKB) 
+;; (cyc-unassert '(#$arg2Isa #$evidenceOf #$Software) #$BaseKB) 
+;; (cyc-unassert '(#$argIsa #$evidenceOf 2 #$Software) #$BaseKB) 
+;; (cyc-unassert '(#$resultIsa #$evidenceOf #$Evidence) #$BaseKB) 

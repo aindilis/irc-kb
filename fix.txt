@@ -1,0 +1,7 @@
+'\'' -> ''
+
+add ':- discontiguous sentence/3, hasFormalization/3.' to front of file
+
+\ -> \\
+
+strip things like: Use of uninitialized value in join or string at ./parse.pl line 100.

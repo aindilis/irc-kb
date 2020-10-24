@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./irckb -p -n -o extract-commitments -f '(logicmoo|dmiles)'
